@@ -1,0 +1,83 @@
+steps:
+- final_input: test.vcf
+  final_output: test8.vcf
+  input_dir:
+  - align
+  - dataprep
+  name: Step 1
+  output_dir: align
+- final_input: test_20230912225700.vcf
+  final_output: test8.vcf
+  input_dir:
+  - align
+  - dataprep
+  name: Step 2
+  output_dir: align
+- final_input: test8.vcf
+  final_output: results.txt
+  input_dir:
+  - align
+  - dataprep
+  name: Step 3
+  output_dir: analysis
+watchdog_triggers:
+- action: modified
+  folder: dataprep
+  trigger_pipeline: true
+- action: created
+  folder: dataprep
+  trigger_pipeline: true
+- action: renamed
+  folder: dataprep
+  trigger_pipeline: true
+- action: modified
+  folder: notebooks
+  trigger_pipeline: true
+- action: created
+  folder: notebooks
+  trigger_pipeline: true
+- action: renamed
+  folder: notebooks
+  trigger_pipeline: true
+- action: modified
+  folder: align
+  trigger_pipeline: true
+- action: created
+  folder: align
+  trigger_pipeline: true
+- action: renamed
+  folder: align
+  trigger_pipeline: true
+- action: modified
+  folder: scripts
+  trigger_pipeline: true
+- action: created
+  folder: scripts
+  trigger_pipeline: true
+- action: renamed
+  folder: scripts
+  trigger_pipeline: true
+- action: modified
+  folder: input_files
+  trigger_pipeline: true
+- action: created
+  folder: input_files
+  trigger_pipeline: true
+- action: renamed
+  folder: input_files
+  trigger_pipeline: true
+- action: deleted
+  folder: dataprep
+  trigger_pipeline: true
+- action: deleted
+  folder: notebooks
+  trigger_pipeline: true
+- action: deleted
+  folder: align
+  trigger_pipeline: true
+- action: deleted
+  folder: scripts
+  trigger_pipeline: true
+- action: deleted
+  folder: input_files
+  trigger_pipeline: true

@@ -1,0 +1,26 @@
+.metadata-table-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.metadata-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.metadata-header {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.metadata-row {
+    border: 1px solid #ccc;
+}
+
+.metadata-cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

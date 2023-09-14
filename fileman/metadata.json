@@ -1,0 +1,48 @@
+{
+    "files": [
+        {
+            "filename": "test.vcf",
+            "directory": "align",
+            "version": 1.0,
+            "type": "intermediate",
+            "path": "/Users/btm002/Documents/acamel_filemanager/fileman/align/test.vcf",
+            "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "timestamp": "20230913193133",
+            "date_created": "Wed Sep 13 19:31:32 2023",
+            "original_filename": null
+        },
+        {
+            "filename": "test.vcf",
+            "directory": "align",
+            "version": 1.0,
+            "type": "intermediate",
+            "path": "/Users/btm002/Documents/acamel_filemanager/fileman/align/test.vcf",
+            "checksum": "9d63c3b5b7623d1fa3dc7fd1547313b9546c6d0fbbb6773a420613b7a17995c8",
+            "timestamp": "20230913193154",
+            "date_created": "Wed Sep 13 19:31:53 2023",
+            "original_filename": null
+        },
+        {
+            "filename": "test2.vcf",
+            "directory": "align",
+            "version": 1.0,
+            "type": "intermediate",
+            "path": "/Users/btm002/Documents/acamel_filemanager/fileman/align/test2.vcf",
+            "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "timestamp": "20230913193203",
+            "date_created": "Wed Sep 13 19:32:03 2023",
+            "original_filename": null
+        },
+        {
+            "filename": "test.popmap.txt",
+            "directory": "dataprep",
+            "version": 1.0,
+            "type": "intermediate",
+            "path": "/Users/btm002/Documents/acamel_filemanager/fileman/dataprep/test.popmap.txt",
+            "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "timestamp": "20230913193216",
+            "date_created": "Wed Sep 13 19:32:16 2023",
+            "original_filename": null
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+.dropdown-select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.label-dropdown {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* General button styling */
+.yaml-button,
+.add-step-button,
+.remove-step-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 15px 15px;
+}
+
+.yaml-button:hover {
+    background-color: #3e8e41;
+}
+
+.yaml-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.add-step-button:hover {
+    background-color: #3e8e41;
+}
+
+.add-step-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.remove-step-button:hover {
+    background-color: #3e8e41;
+}
+
+.remove-step-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
